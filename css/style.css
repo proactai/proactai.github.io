@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #50CB86;
+  color: #011735;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #50CB86;
+  color: #011735;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #50CB86;
+  background: #011735;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #50CB86;
+  background: #011735;
 }
 
 ::selection {
   color: #fff;
-  background: #50CB86;
+  background: #011735;
 }
 
 .fh5co-nav {
@@ -90,8 +90,9 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding: 40px 0;
+  padding:30px 0;
   z-index: 1001;
+  background: #011735;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -196,7 +197,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #50CB86;
+  color: #011735;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -312,14 +313,14 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: #ff5db1;
-  background: -moz-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff5db1), color-stop(100%, rgba(0, 87, 137, 0.7)));
-  background: -webkit-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -o-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: -ms-linear-gradient(-45deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: linear-gradient(135deg, #ff5db1 0%, rgba(0, 87, 137, 0.7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#005789', GradientType=1 );
+  background: #00b8f9;
+  background: -moz-linear-gradient(-45deg, #00b8f9 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #00b8f9), color-stop(100%, rgba(0, 87, 137, 0.7)));
+  background: -webkit-linear-gradient(-45deg, #00b8f9 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -o-linear-gradient(-45deg, #00b8f9 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -ms-linear-gradient(-45deg, #00b8f9 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: linear-gradient(135deg, #00b8f9 0%, rgba(0, 87, 137, 0.7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8f9', endColorstr='#005789', GradientType=1 );
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -435,7 +436,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #50CB86;
+  color: #011735;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -454,7 +455,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #50CB86;
+  color: #011735;
   position: absolute;
   left: 0;
   top: .05em;
@@ -530,7 +531,7 @@ form label {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #50CB86 !important;
+  background: #011735 !important;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -539,7 +540,7 @@ form label {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #50CB86 !important;
+  background: #011735 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -633,13 +634,13 @@ form label {
 .fh5co-bg-section {
   position: relative;
   background: #005a8f;
-  background: -moz-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #005a8f), color-stop(100%, #ff61b3));
-  background: -webkit-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -o-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: -ms-linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  background: linear-gradient(45deg, #005a8f 0%, #ff61b3 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a8f', endColorstr='#ff61b3', GradientType=1 );
+  background: -moz-linear-gradient(45deg, #005a8f 0%, #00b8f9 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #005a8f), color-stop(100%, #00b8f9));
+  background: -webkit-linear-gradient(45deg, #005a8f 0%, #00b8f9 100%);
+  background: -o-linear-gradient(45deg, #005a8f 0%, #00b8f9 100%);
+  background: -ms-linear-gradient(45deg, #005a8f 0%, #00b8f9 100%);
+  background: linear-gradient(45deg, #005a8f 0%, #00b8f9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a8f', endColorstr='#00b8f9', GradientType=1 );
 }
 .fh5co-bg-section .overlay {
   position: absolute;
@@ -728,7 +729,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #50CB86;
+  color: #011735;
 }
 .col-nineth .col-third .desc h3 {
   font-size: 16px;
@@ -779,7 +780,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #50CB86;
+  color: #011735;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -902,7 +903,7 @@ form label {
   position: absolute;
   left: 0;
   top: 0;
-  color: #50CB86;
+  color: #011735;
 }
 .project .mt > div {
   margin-bottom: 40px;
@@ -925,7 +926,7 @@ form label {
   left: 0;
   top: 0;
   font-size: 18px;
-  color: #50CB86;
+  color: #011735;
 }
 
 .work-grid {
@@ -1001,7 +1002,7 @@ form label {
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
 }
 .work-grid .desc .download a {
-  background: #50CB86;
+  background: #011735;
 }
 .work-grid .desc .love a {
   background: #E04462;
@@ -1064,14 +1065,14 @@ form label {
 }
 
 #fh5co-started {
-  background: #ff61b3;
-  background: -moz-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff61b3), color-stop(100%, #005a8f));
-  background: -webkit-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: -o-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: -ms-linear-gradient(-45deg, #ff61b3 0%, #005a8f 100%);
-  background: linear-gradient(135deg, #ff61b3 0%, #005a8f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff61b3', endColorstr='#005a8f', GradientType=1 );
+  background: #00b8f9;
+  background: -moz-linear-gradient(-45deg, #00b8f9 0%, #005a8f 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #00b8f9), color-stop(100%, #005a8f));
+  background: -webkit-linear-gradient(-45deg, #00b8f9 0%, #005a8f 100%);
+  background: -o-linear-gradient(-45deg, #00b8f9 0%, #005a8f 100%);
+  background: -ms-linear-gradient(-45deg, #00b8f9 0%, #005a8f 100%);
+  background: linear-gradient(135deg, #00b8f9 0%, #005a8f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8f9', endColorstr='#005a8f', GradientType=1 );
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
@@ -1110,7 +1111,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #50CB86;
+  background: #011735;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1421,9 +1422,9 @@ form label {
 }
 
 .btn-primary {
-  background: #50CB86;
+  background: #011735;
   color: #fff;
-  border: 2px solid #50CB86;
+  border: 2px solid #011735;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #64d194 !important;
@@ -1431,11 +1432,11 @@ form label {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #50CB86;
-  border: 2px solid #50CB86;
+  color: #011735;
+  border: 2px solid #011735;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #50CB86;
+  background: #011735;
   color: #fff;
 }
 
@@ -1565,7 +1566,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #50CB86;
+  border-color: #011735;
 }
 
 .row-pb-md {
@@ -1591,3 +1592,5 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.br-logo {    max-height: 50px ; margin: -10px 0;}
